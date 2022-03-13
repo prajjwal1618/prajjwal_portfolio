@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #effff9;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0 auto;
+  font-family: 'Sacramento', sans-serif;
+  font-weight: 100;
+  color: #1e836c;
+}
+
+.top-container p{
+  font-size: 2.5rem;
+  color: #1e836c;
+  font-weight: normal;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #1e836c;;
+  font-weight: normal;
+}
+
+.profile{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+.top-container {
+  background-color: rgb(228, 249, 248);
+  position: relative;
+  padding-top: 100px;
+  height:620px;
+}
+.profile img{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   height: 356px;
+   width: 356px;
+   border-radius: 50%;
+}
+
+hr{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: 0px;
+  width: 4%;
+  border-top: 5px grey dotted;
+}
+
+.middle-container{
+  padding-top: 100px;
+}
+
+.skill-row{
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  margin:100px auto;
+}
+
+.skillimg{
+  height: 158.5px;
+  width: 158.5px;
+  float: left;
+  padding-right: 30px;
+}
+
+.competenceimg{
+  height: 158.5px;
+  width: 158.5px;
+  float: left;
+  padding-right: 30px;
+}
+
+.bottom-container{
+  background-color: #b6efef;;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contact-para{
+  width: 50%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.btn {
+  background: #11999E;
+  border-radius: 5px;
+  color: #EAF6F6;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 8px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  }
+
+.bottom-container{
+  margin-top: 35px;
+}
+
+.bottom-container a{
+  color:rgb(0, 0, 0);
+}
+
+.footer-link{
+  text-decoration: none;
+  margin-right: 55px;
+  color: #000;
+}
+
+.last-para{
+    color: #1e836c;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.clouds1{
+  position: absolute;
+  bottom: 120px;
+  right: 200px;
+}
+
+.clouds2{
+  position: absolute;
+  left: 200px;
+  bottom: 120px;
+
+}
+
+@media (max-width: 1050px){
+  .clouds1{
+      display: none;
+  }
+
+    .clouds2{
+        display: none;
+    }
+  }
+
